@@ -145,7 +145,6 @@
 
 | 序号         | 标题         | star⭐          | 项目地址        | 项目描述      | 语言       | fork        | watch         | 项目创建时间   | 项目最后更新时间 |
 |------------|---------------|---------------- |--------------|--------------|------------|------------|---------------|------------- |--------------|
-
 |1|开发者成长之路:developer-roadmap|260728|https://github.com/kamranahmedse/developer-roadmap<br/>![](http://photocdn.tv.sohu.com/img/20230406/pic_org_4658e313-c9f6-4ab3-841c-251b80874855.png)|一个为所有开发者提供的成长之路指南，旨在为菜鸟和老鸟提供一条充满乐趣和挑战的发展路径。这个项目将帮助你轻松了解各种技能树和技术路线，使你的职业之旅不再迷茫。无论你是新手还是经验丰富的开发者，这个开源项目都提供了有价值的学习资源和指导，帮助你不断提升技能。|TypeScript|35883|6849|2017/3/15 21:45|2023/12/19 04:55
 |2|Python资源集合库:awesome-python|191004|https://github.com/vinta/awesome-python<br/>![](http://photocdn.tv.sohu.com/img/20230410/pic_org_5374cdf8-0767-4602-ab52-d4cdb80ca1d6.png)|一个Python资源集合库，汇集了Python生态中最热门的项目、工具、库、框架等。该项目旨在为Python开发者提供一个集中的资源库，帮助他们更好地学习和使用Python。awesome-python涵盖了广泛的主题，是Python生态的宝库之一。|Python|24360|5914|2014/6/28 05:00|2023/12/19 05:11
 |3| Python算法:Python|173992|https://github.com/TheAlgorithms/Python<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230804/pic_org_1575a2e5-21ef-45a5-b37d-3720f65ea1d7.png)|用 Python 实现所有算法。该项目是用 Python 语言实现各种算法的集合，主要用于教育和学习。包括搜索、排序、数据结构、机器学习、密码、神经网络等方面|Python|43556|5934|2016/7/16 17:44|2023/12/19 05:08
