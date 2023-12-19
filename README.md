@@ -1,10 +1,21 @@
 # 2023年度精选开源项目
 
-## 精选项目分类汇总:共461个项目
+> 精选项目分类汇总:共461个项目
+
+- [AI项目](#AI项目)
+- [ChatGPT项目](#ChatGPT项目)
+- [编程学习类项目](#编程学习类项目)
+- [实用工具类项目](#实用工具类项目)
+- [前端/设计类项目](#前端/设计类项目)
+- [面试书籍类项目](#面试书籍类项目)
+- [视频/图像类项目](#视频/图像类项目)
+- [中间件类项目](#中间件类项目)
+- [游戏类项目](#游戏类项目)
+- [其他项目](#其他项目)
 
 根据项目的分类,按star数量从高到低规则展示:
 
-### AI项目
+## AI项目
 
 | 序号         | 标题         | star⭐          | 项目地址        | 项目描述      | 语言       | fork        | watch         | 项目创建时间   | 项目最后更新时间 |
 |------------|---------------|---------------- |--------------|--------------|------------|------------|---------------|------------- |--------------|
@@ -68,7 +79,7 @@
 58|prompt模型:prompt2model|1693|https://github.com/neulab/prompt2model<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230908/pic_org_e92e17bc-455d-442f-85aa-0466949c8abc.jpg)|一个强大的工具，可以从自然语言指令生成可部署的机器学习模型。它为开发者提供了一种直观的方式来将自然语言指令转化为可执行的模型，从而简化了模型开发和部署的流程。这个项目对于自然语言处理领域的研究和应用非常有价值。|Python|139|21|2023/3/27 09:59|2023/12/18 22:38
 59|Chatpad AI:chatpad|1080|https://github.com/deiucanta/chatpad<br/>![](http://photocdn.tv.sohu.com/github/ef83f977e28544a9c8c7fc081b0b809e70da79da-2558x1270.jpg)|Chat interface for ChatGPT platform.|TypeScript|216|18|2023/3/18 02:18|2023/12/19 02:21
 
-### ChatGPT项目
+## ChatGPT项目
 
 | 序号         | 标题         | star⭐          | 项目地址        | 项目描述      | 语言       | fork        | watch         | 项目创建时间   | 项目最后更新时间 |
 |------------|---------------|---------------- |--------------|--------------|------------|------------|---------------|------------- |--------------|
@@ -130,36 +141,36 @@
 56|多语言多任务语言模型:TigerBot|2037|https://github.com/TigerResearch/TigerBot<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230619/pic_org_cf9f5c0d-3a66-4fa4-8d3d-8ef3314053e4.png)|一个多语言多任务的大规模语言模型（LLM）项目。它致力于开发和研究大规模语言模型，以实现多语言、多任务的自然语言处理功能，如文本生成、翻译、摘要等。TigerBot为研究人员和开发人员提供了一个强大的工具，用于探索和应用自然语言处理技术。|Python|189|25|2023/5/12 11:10|2023/12/19 03:23|
 57|AI多模型代理:GPTeam|1424|https://github.com/101dotxyz/GPTeam<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230602/pic_org_d7a687e4-5220-4f24-bc91-a133d1f1401d.png)|GPTeam:一个开源的多代理模拟,使用GPT-4创建多个协作实现预定义目标的代理。该项目的主要目标是探索GPT模型在提高多智能体生产力和有效通信方面的潜力。|Python|224|27|2023/4/4 02:26|2023/12/18 23:04|
 
-### 编程学习项目
+## 编程学习类项目
 
 | 序号         | 标题         | star⭐          | 项目地址        | 项目描述      | 语言       | fork        | watch         | 项目创建时间   | 项目最后更新时间 |
 |------------|---------------|---------------- |--------------|--------------|------------|------------|---------------|------------- |--------------|
 
-1|数据结构的C语言实现:C|17406|https://github.com/TheAlgorithms/C<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20231007/pic_org_6a7a7a7e-2a61-4179-9e00-ae50f359c36a.png)|一个开源组织，提供各种基础算法和数据结构的C语言实现。该项目包含了基础算法的示例代码，覆盖多种编程语言，为学习和理解算法提供了有用的资源。|C|4228|510|2016/7/16 18:17|2023/12/19 03:29
-2|数据计算和处理引擎:esProc|3985|https://github.com/SPLWare/esProc<br/>![](http://photocdn.tv.sohu.com/img/upload/20230922/esProc.png)|一种用于数据处理的脚本语言，具有精心设计的丰富的库函数和强大的语法，可以通过JDBC接口和独立计算在Java程序中执行。|Java|279|58|2021/11/9 23:41|2023/12/19 04:30
-3|启动全栈Next.js应用程序:create-t3-app|21537|https://github.com/t3-oss/create-t3-app<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20231023/pic_org_54a5d9df-a3e4-49bc-9870-9586ac4612a1.png)|create-t3-app是启动全栈、类型安全的Next.js应用程序的最佳方式。它提供了一整套工具和模板，以帮助开发人员快速创建现代的Web应用程序。该项目旨在提供一种简单而高效的方式，以利用Next.js的强大功能，并构建全栈应用程序。|TypeScript|947|78|2022/5/24 21:31|2023/12/19 04:21
-4|用 Rust 编写的 JavaScript 工具集合:oxc|3552|https://github.com/web-infra-dev/oxc<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20231218/pic_org_12ce77ef-bd9d-4c8f-bfee-42865f450510.png)|⚓一个用 Rust 编写的 JavaScript 工具集合。该项目旨在提供一组 Rust 实现的 JavaScript 工具，以增强 JavaScript 生态系统的性能和功能。|Rust|131|32|2023/2/9 13:46|2023/11/10 00:43
-5|多平台应用开发的Rust库:dioxus|15018|https://github.com/DioxusLabs/dioxus<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230807/pic_org_74463ee7-c667-4913-a6cc-1e65c99290db.png)|Dioxus是一个Rust库，专注于构建在多个平台上运行的应用程序，包括桌面、Web和移动平台。它注重开发人员体验，旨在快速、美观和功能齐全地构建应用程序。对于想要在多个平台上开发应用程序的开发者，Dioxus提供了一个便捷的选择。|Rust|502|85|2021/1/15 09:57|2023/12/19 02:48
-6| 新一代编程语言:mojo|16258|https://github.com/modularml/mojo<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230915/pic_org_dc2e8bb6-c30b-4dc4-9f47-1b46db494410.jpg)|一种新一代编程语言，旨在提供更灵活和高效的编程体验。它具有现代编程语言的特性，并支持模块化开发，使开发者能够更轻松地构建复杂的应用程序。Mojo的目标是推动编程语言的发展，为开发者提供更好的工具和语法。|Jupyter Notebook|2123|250|2023/4/29 06:17|2023/12/19 01:47
-7|Flipper Zero Firmware的超级固件:Xtreme-Firmware|6698|https://github.com/Flipper-XFW/Xtreme-Firmware<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230915/pic_org_35c2c4d0-5110-4e8b-8c65-d697792d6c41.jpg)|Xtreme-Firmware是 Flipper Zero 固件的强化版。它为 Flipper Zero 带来了更多的功能和自由度。让您的 Flipper 获得真正的力量和自由。不要犹豫，立即切换到唯一真正的大师！如果您拥有 Flipper Zero，这个固件将为您提供全新的体验。|C|486|342|2022/12/18 22:01|2023/12/19 04:56
-8|Rust教程:comprehensive-rust|23270|https://github.com/google/comprehensive-rust<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230529/pic_org_569271d0-5cd7-41a0-9ede-ead49d270265.png)|这是Google开放的一个全面的Rust技术教程，涵盖了Rust的基本语法到高级主题，包括泛型、错误处理、Android开发等。通过这个教程，您将全面学习Rust的基础知识，掌握Rust应用程序的编写和常用开发技巧。|Rust|1386|135|2022/12/21 23:17|2023/12/19 03:13
-9|高效可扩展的Node.js框架:nest|61639|https://github.com/nestjs/nest<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230915/pic_org_d4bf61cd-3b9b-4cb8-b093-c0eeeedd8ca8.jpg)|一个用于构建高效、可扩展的Node.js服务器端应用程序的框架。它采用渐进式JavaScript，全面支持TypeScript，同时还允许开发人员使用纯JavaScript编写代码。Nest 结合了面向对象编程(OOP)、函数式编程(FP)和函数式响应式编程(FRP)的元素。它提供了一个抽象层次，同时还向开发人员公开了底层平台的API，使开发人员能够自由使用无数的第三方模块。|TypeScript|7253|737|2017/2/5 04:12|2023/12/19 03:38
-10|Node.js版本管理器:nvm|72361|https://github.com/nvm-sh/nvm<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20231117/pic_org_f39172d7-a74b-4c1d-aa30-9ac826abec5a.jpg)|nvm是一个兼容posix的bash脚本，用于管理多个活动Node.js版本。通过nvm，开发者可以轻松切换和管理Node.js的不同版本，确保项目在不同Node.js环境中的正常运行。|Shell|7656|988|2010/4/16 01:47|2023/12/19 04:59
-11|动画编辑器:motion-canvas|14147|https://github.com/motion-canvas/motion-canvas<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230602/pic_org_ad94a02b-2bed-4ca7-9f1f-f990c2a7d65b.png)|Motion Canvas是一个使用TypeScript编写的库，通过编程的方式可视化复杂的想法。它提供了生成器来编程动画，是一个专门用于创建信息矢量动画并与音频同步的工具。|TypeScript|549|78|2022/8/4 00:30|2023/12/19 04:27
-12|Rust算法手册:Rust|18452|https://github.com/TheAlgorithms/Rust<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230529/pic_org_2cbc1a59-50b9-48b5-8b03-c56617b43a97.png)|这个项目收集了各种算法在Rust语言中的实现，涵盖了广泛的算法领域。它是学习和使用Rust编程语言进行算法开发的宝贵资源。|Rust|1880|224|2018/9/13 21:29|2023/12/18 23:00
-13|C++核心指南:CppCoreGuidelines|40580|https://github.com/isocpp/CppCoreGuidelines<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230922/pic_org_d6597b79-c800-4fea-b44f-ef51b863eee2.jpg)|一套关于C++编码的可靠指南、规则和最佳实践的合集。这些指南旨在帮助C++开发人员编写可读、高效、安全的代码。它提供了有关代码结构、内存管理、异常处理等方面的建议，有助于提高C++代码的质量和可维护性。如果您是C++开发人员，这些指南可能对您的项目非常有帮助。|Python|5428|1971|2015/8/20 04:22|2023/12/19 04:28
-14|现代C++编程课程:Modern-CPP-Programming|7520|https://github.com/federico-busato/Modern-CPP-Programming<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20231207/pic_org_1d5239cf-70ec-40e5-89b9-7a22d473dcdf.png)|一门面向现代C++编程的课程，旨在帮助学习者掌握C++的最新特性和最佳实践。该课程涵盖了C++语法、标准库、面向对象编程等方面，使学习者能够编写高效、现代化的C++代码。无论是初学者还是有经验的开发者，都可以通过这门课程提升自己在C++编程领域的技能。||575|119|2018/3/8 17:06|2023/12/19 04:45
-15|动画图解的数据结构与算法教程:hello-algo|55909|https://github.com/krahets/hello-algo<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230824/pic_org_ef372987-6512-4089-9fd8-d1aee6f1a020.jpg)|一个动画图解的数据结构与算法教程，支持多种编程语言，如 Java、C++、Python、Go、JS、TS、C#、Swift、Rust、Dart、Zig 等。通过可视化的方式，这个项目帮助学习者更轻松地理解和学习各种数据结构与算法。|Java|6820|352|2022/11/4 19:08|2023/12/19 04:52
-16|Python Cookbook:python3-cookbook|11135|https://github.com/yidao620c/python3-cookbook<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230824/pic_org_e7f360a8-c13e-4889-88eb-ff161cf29c17.jpg)|《Python CookBook》一直是较为经典的Python教程。它注重方法和技巧的讲解，能让学习者更好的理解Python这门语言，最终将技巧运用到项目中。本书作者是David Beazley大神，一位独立的计算机科学家、教育家，以及有着35年开发经验的软件开发者。 他在Python社区一直都很活跃，编写了很多的python包， 发表了很多的公开演讲视频 以及 编程教程。 同时还是Python Essential Reference 以及 Python Cookbook (O'Reilly Media)的作者。|Jupyter Notebook|2972|501|2014/8/19 11:13|2023/12/18 23:19
-17| Python算法:Python|173992|https://github.com/TheAlgorithms/Python<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230804/pic_org_1575a2e5-21ef-45a5-b37d-3720f65ea1d7.png)|用 Python 实现所有算法。该项目是用 Python 语言实现各种算法的集合，主要用于教育和学习。包括搜索、排序、数据结构、机器学习、密码、神经网络等方面|Python|43556|5934|2016/7/16 17:44|2023/12/19 05:08
-18|Effective Modern C++ 中文翻译版:EffectiveModernCppChinese|6751|https://github.com/CnTransGroup/EffectiveModernCppChinese<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230824/pic_org_23ffd86b-71e2-4b7e-80a8-57432b7bdd5a.jpg)|《Effective Modern C++》一书的翻译版本为中文读者提供了一份精心翻译的现代 C++ 学习资源，帮助开发者更好地理解和应用现代 C++ 的最佳实践。||1091|119|2016/11/17 18:03|2023/12/19 01:04
-19|C++那些事:CPlusPlusThings|34815|https://github.com/Light-City/CPlusPlusThings<br/>![](http://photocdn.tv.sohu.com/img/upload/20231201/CPlusPlusThings.png)|这是一个适合初学者从入门到进阶的仓库，解决了面试者与学习者想要深入 C++ 及如何入坑 C++ 的问题。除此之外，本仓库拓展了更加深入的源码分析，多线程并发等的知识，是一个比较全面的 C++ 学习从入门到进阶提升的仓库。目前start 3.5W|C++|8093|532|2019/7/14 16:45|2023/12/19 02:36
-20|Python 100 天从新手到大师 :Python-100-Days|144413|https://github.com/jackfrued/Python-100-Days<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230821/pic_org_b2a1e8f0-da77-4bd8-a410-0332ddc5b064.jpg)|一份适合新手入门的 Python 学习资料。这个学习计划为学习者提供了低学习曲线的学习路径，帮助他们从 Python 初学者逐步成为大师。不仅专业人士，即使是非专业人士也能通过这份资料轻松上手 Python 编程，掌握编程技能。|Python|50728|6164|2018/3/2 00:05|2023/12/19 00:56
-21|Angular的命令行工具:angular-cli|26397|https://github.com/angular/angular-cli<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230915/pic_org_94729b55-5b62-4919-9815-140be48dd9c6.jpg)|用于Angular框架的命令行工具。它提供了一套强大的命令，帮助开发者创建、构建和维护Angular应用程序。Angular CLI简化了Angular项目的管理和部署过程，是Angular开发的不可或缺的工具。|TypeScript|12149|1010|2015/6/5 03:49|2023/12/19 00:49
-22|Python资源集合库:awesome-python|191004|https://github.com/vinta/awesome-python<br/>![](http://photocdn.tv.sohu.com/img/20230410/pic_org_5374cdf8-0767-4602-ab52-d4cdb80ca1d6.png)|一个Python资源集合库，汇集了Python生态中最热门的项目、工具、库、框架等。该项目旨在为Python开发者提供一个集中的资源库，帮助他们更好地学习和使用Python。awesome-python涵盖了广泛的主题，是Python生态的宝库之一。|Python|24360|5914|2014/6/28 05:00|2023/12/19 05:11
-23|开发者成长之路:developer-roadmap|260728|https://github.com/kamranahmedse/developer-roadmap<br/>![](http://photocdn.tv.sohu.com/img/20230406/pic_org_4658e313-c9f6-4ab3-841c-251b80874855.png)|一个为所有开发者提供的成长之路指南，旨在为菜鸟和老鸟提供一条充满乐趣和挑战的发展路径。这个项目将帮助你轻松了解各种技能树和技术路线，使你的职业之旅不再迷茫。无论你是新手还是经验丰富的开发者，这个开源项目都提供了有价值的学习资源和指导，帮助你不断提升技能。|TypeScript|35883|6849|2017/3/15 21:45|2023/12/19 04:55
+|1|开发者成长之路:developer-roadmap|260728|https://github.com/kamranahmedse/developer-roadmap<br/>![](http://photocdn.tv.sohu.com/img/20230406/pic_org_4658e313-c9f6-4ab3-841c-251b80874855.png)|一个为所有开发者提供的成长之路指南，旨在为菜鸟和老鸟提供一条充满乐趣和挑战的发展路径。这个项目将帮助你轻松了解各种技能树和技术路线，使你的职业之旅不再迷茫。无论你是新手还是经验丰富的开发者，这个开源项目都提供了有价值的学习资源和指导，帮助你不断提升技能。|TypeScript|35883|6849|2017/3/15 21:45|2023/12/19 04:55
+|2|Python资源集合库:awesome-python|191004|https://github.com/vinta/awesome-python<br/>![](http://photocdn.tv.sohu.com/img/20230410/pic_org_5374cdf8-0767-4602-ab52-d4cdb80ca1d6.png)|一个Python资源集合库，汇集了Python生态中最热门的项目、工具、库、框架等。该项目旨在为Python开发者提供一个集中的资源库，帮助他们更好地学习和使用Python。awesome-python涵盖了广泛的主题，是Python生态的宝库之一。|Python|24360|5914|2014/6/28 05:00|2023/12/19 05:11
+|3| Python算法:Python|173992|https://github.com/TheAlgorithms/Python<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230804/pic_org_1575a2e5-21ef-45a5-b37d-3720f65ea1d7.png)|用 Python 实现所有算法。该项目是用 Python 语言实现各种算法的集合，主要用于教育和学习。包括搜索、排序、数据结构、机器学习、密码、神经网络等方面|Python|43556|5934|2016/7/16 17:44|2023/12/19 05:08
+|4|Python 100 天从新手到大师 :Python-100-Days|144413|https://github.com/jackfrued/Python-100-Days<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230821/pic_org_b2a1e8f0-da77-4bd8-a410-0332ddc5b064.jpg)|一份适合新手入门的 Python 学习资料。这个学习计划为学习者提供了低学习曲线的学习路径，帮助他们从 Python 初学者逐步成为大师。不仅专业人士，即使是非专业人士也能通过这份资料轻松上手 Python 编程，掌握编程技能。|Python|50728|6164|2018/3/2 00:05|2023/12/19 00:56
+|5|Node.js版本管理器:nvm|72361|https://github.com/nvm-sh/nvm<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20231117/pic_org_f39172d7-a74b-4c1d-aa30-9ac826abec5a.jpg)|nvm是一个兼容posix的bash脚本，用于管理多个活动Node.js版本。通过nvm，开发者可以轻松切换和管理Node.js的不同版本，确保项目在不同Node.js环境中的正常运行。|Shell|7656|988|2010/4/16 01:47|2023/12/19 04:59
+|6|高效可扩展的Node.js框架:nest|61639|https://github.com/nestjs/nest<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230915/pic_org_d4bf61cd-3b9b-4cb8-b093-c0eeeedd8ca8.jpg)|一个用于构建高效、可扩展的Node.js服务器端应用程序的框架。它采用渐进式JavaScript，全面支持TypeScript，同时还允许开发人员使用纯JavaScript编写代码。Nest 结合了面向对象编程(OOP)、函数式编程(FP)和函数式响应式编程(FRP)的元素。它提供了一个抽象层次，同时还向开发人员公开了底层平台的API，使开发人员能够自由使用无数的第三方模块。|TypeScript|7253|737|2017/2/5 04:12|2023/12/19 03:38
+|7|动画图解的数据结构与算法教程:hello-algo|55909|https://github.com/krahets/hello-algo<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230824/pic_org_ef372987-6512-4089-9fd8-d1aee6f1a020.jpg)|一个动画图解的数据结构与算法教程，支持多种编程语言，如 Java、C++、Python、Go、JS、TS、C#、Swift、Rust、Dart、Zig 等。通过可视化的方式，这个项目帮助学习者更轻松地理解和学习各种数据结构与算法。|Java|6820|352|2022/11/4 19:08|2023/12/19 04:52
+|8|C++核心指南:CppCoreGuidelines|40580|https://github.com/isocpp/CppCoreGuidelines<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230922/pic_org_d6597b79-c800-4fea-b44f-ef51b863eee2.jpg)|一套关于C++编码的可靠指南、规则和最佳实践的合集。这些指南旨在帮助C++开发人员编写可读、高效、安全的代码。它提供了有关代码结构、内存管理、异常处理等方面的建议，有助于提高C++代码的质量和可维护性。如果您是C++开发人员，这些指南可能对您的项目非常有帮助。|Python|5428|1971|2015/8/20 04:22|2023/12/19 04:28
+|9|C++那些事:CPlusPlusThings|34815|https://github.com/Light-City/CPlusPlusThings<br/>![](http://photocdn.tv.sohu.com/img/upload/20231201/CPlusPlusThings.png)|这是一个适合初学者从入门到进阶的仓库，解决了面试者与学习者想要深入 C++ 及如何入坑 C++ 的问题。除此之外，本仓库拓展了更加深入的源码分析，多线程并发等的知识，是一个比较全面的 C++ 学习从入门到进阶提升的仓库。目前start 3.5W|C++|8093|532|2019/7/14 16:45|2023/12/19 02:36
+|10|Angular的命令行工具:angular-cli|26397|https://github.com/angular/angular-cli<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230915/pic_org_94729b55-5b62-4919-9815-140be48dd9c6.jpg)|用于Angular框架的命令行工具。它提供了一套强大的命令，帮助开发者创建、构建和维护Angular应用程序。Angular CLI简化了Angular项目的管理和部署过程，是Angular开发的不可或缺的工具。|TypeScript|12149|1010|2015/6/5 03:49|2023/12/19 00:49
+|11|Rust教程:comprehensive-rust|23270|https://github.com/google/comprehensive-rust<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230529/pic_org_569271d0-5cd7-41a0-9ede-ead49d270265.png)|这是Google开放的一个全面的Rust技术教程，涵盖了Rust的基本语法到高级主题，包括泛型、错误处理、Android开发等。通过这个教程，您将全面学习Rust的基础知识，掌握Rust应用程序的编写和常用开发技巧。|Rust|1386|135|2022/12/21 23:17|2023/12/19 03:13
+|12|启动全栈Next.js应用程序:create-t3-app|21537|https://github.com/t3-oss/create-t3-app<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20231023/pic_org_54a5d9df-a3e4-49bc-9870-9586ac4612a1.png)|create-t3-app是启动全栈、类型安全的Next.js应用程序的最佳方式。它提供了一整套工具和模板，以帮助开发人员快速创建现代的Web应用程序。该项目旨在提供一种简单而高效的方式，以利用Next.js的强大功能，并构建全栈应用程序。|TypeScript|947|78|2022/5/24 21:31|2023/12/19 04:21
+|13|Rust算法手册:Rust|18452|https://github.com/TheAlgorithms/Rust<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230529/pic_org_2cbc1a59-50b9-48b5-8b03-c56617b43a97.png)|这个项目收集了各种算法在Rust语言中的实现，涵盖了广泛的算法领域。它是学习和使用Rust编程语言进行算法开发的宝贵资源。|Rust|1880|224|2018/9/13 21:29|2023/12/18 23:00
+|14|数据结构的C语言实现:C|17406|https://github.com/TheAlgorithms/C<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20231007/pic_org_6a7a7a7e-2a61-4179-9e00-ae50f359c36a.png)|一个开源组织，提供各种基础算法和数据结构的C语言实现。该项目包含了基础算法的示例代码，覆盖多种编程语言，为学习和理解算法提供了有用的资源。|C|4228|510|2016/7/16 18:17|2023/12/19 03:29
+|15| 新一代编程语言:mojo|16258|https://github.com/modularml/mojo<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230915/pic_org_dc2e8bb6-c30b-4dc4-9f47-1b46db494410.jpg)|一种新一代编程语言，旨在提供更灵活和高效的编程体验。它具有现代编程语言的特性，并支持模块化开发，使开发者能够更轻松地构建复杂的应用程序。Mojo的目标是推动编程语言的发展，为开发者提供更好的工具和语法。|Jupyter Notebook|2123|250|2023/4/29 06:17|2023/12/19 01:47
+|16|多平台应用开发的Rust库:dioxus|15018|https://github.com/DioxusLabs/dioxus<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230807/pic_org_74463ee7-c667-4913-a6cc-1e65c99290db.png)|Dioxus是一个Rust库，专注于构建在多个平台上运行的应用程序，包括桌面、Web和移动平台。它注重开发人员体验，旨在快速、美观和功能齐全地构建应用程序。对于想要在多个平台上开发应用程序的开发者，Dioxus提供了一个便捷的选择。|Rust|502|85|2021/1/15 09:57|2023/12/19 02:48
+|17|动画编辑器:motion-canvas|14147|https://github.com/motion-canvas/motion-canvas<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230602/pic_org_ad94a02b-2bed-4ca7-9f1f-f990c2a7d65b.png)|Motion Canvas是一个使用TypeScript编写的库，通过编程的方式可视化复杂的想法。它提供了生成器来编程动画，是一个专门用于创建信息矢量动画并与音频同步的工具。|TypeScript|549|78|2022/8/4 00:30|2023/12/19 04:27
+|18|Python Cookbook:python3-cookbook|11135|https://github.com/yidao620c/python3-cookbook<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230824/pic_org_e7f360a8-c13e-4889-88eb-ff161cf29c17.jpg)|《Python CookBook》一直是较为经典的Python教程。它注重方法和技巧的讲解，能让学习者更好的理解Python这门语言，最终将技巧运用到项目中。本书作者是David Beazley大神，一位独立的计算机科学家、教育家，以及有着35年开发经验的软件开发者。 他在Python社区一直都很活跃，编写了很多的python包， 发表了很多的公开演讲视频 以及 编程教程。 同时还是Python Essential Reference 以及 Python Cookbook (O'Reilly Media)的作者。|Jupyter Notebook|2972|501|2014/8/19 11:13|2023/12/18 23:19
+|19|现代C++编程课程:Modern-CPP-Programming|7520|https://github.com/federico-busato/Modern-CPP-Programming<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20231207/pic_org_1d5239cf-70ec-40e5-89b9-7a22d473dcdf.png)|一门面向现代C++编程的课程，旨在帮助学习者掌握C++的最新特性和最佳实践。该课程涵盖了C++语法、标准库、面向对象编程等方面，使学习者能够编写高效、现代化的C++代码。无论是初学者还是有经验的开发者，都可以通过这门课程提升自己在C++编程领域的技能。||575|119|2018/3/8 17:06|2023/12/19 04:45
+|20|Effective Modern C++ 中文翻译版:EffectiveModernCppChinese|6751|https://github.com/CnTransGroup/EffectiveModernCppChinese<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230824/pic_org_23ffd86b-71e2-4b7e-80a8-57432b7bdd5a.jpg)|《Effective Modern C++》一书的翻译版本为中文读者提供了一份精心翻译的现代 C++ 学习资源，帮助开发者更好地理解和应用现代 C++ 的最佳实践。||1091|119|2016/11/17 18:03|2023/12/19 01:04
+|21|Flipper Zero Firmware的超级固件:Xtreme-Firmware|6698|https://github.com/Flipper-XFW/Xtreme-Firmware<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230915/pic_org_35c2c4d0-5110-4e8b-8c65-d697792d6c41.jpg)|Xtreme-Firmware是 Flipper Zero 固件的强化版。它为 Flipper Zero 带来了更多的功能和自由度。让您的 Flipper 获得真正的力量和自由。不要犹豫，立即切换到唯一真正的大师！如果您拥有 Flipper Zero，这个固件将为您提供全新的体验。|C|486|342|2022/12/18 22:01|2023/12/19 04:56
+|22|数据计算和处理引擎:esProc|3985|https://github.com/SPLWare/esProc<br/>![](http://photocdn.tv.sohu.com/img/upload/20230922/esProc.png)|一种用于数据处理的脚本语言，具有精心设计的丰富的库函数和强大的语法，可以通过JDBC接口和独立计算在Java程序中执行。|Java|279|58|2021/11/9 23:41|2023/12/19 04:30
+|23|用 Rust 编写的 JavaScript 工具集合:oxc|3552|https://github.com/web-infra-dev/oxc<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20231218/pic_org_12ce77ef-bd9d-4c8f-bfee-42865f450510.png)|⚓一个用 Rust 编写的 JavaScript 工具集合。该项目旨在提供一组 Rust 实现的 JavaScript 工具，以增强 JavaScript 生态系统的性能和功能。|Rust|131|32|2023/2/9 13:46|2023/11/10 00:43
 
-### 实用工具类项目
+## 实用工具类项目
 
 | 序号         | 标题         | star⭐          | 项目地址        | 项目描述      | 语言       | fork        | watch         | 项目创建时间   | 项目最后更新时间 |
 |------------|---------------|---------------- |--------------|--------------|------------|------------|---------------|------------- |--------------|
@@ -275,7 +286,7 @@
 |110|GitHub个人主页:BEPb|2487|https://github.com/BEPb/BEPb<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230904/pic_org_129ce38c-530d-4d21-ae50-7c089e9c1de2.jpg)|我的 GitHub 个人主页。这个项目展示了我的开源项目、贡献以及其他与技术相关的信息。它提供了一个概览我的技术工作和兴趣的方式。|Shell|840|23|2021/10/28 11:29|2023/12/18 19:16
 |111|多语言代码大模型基座:codeshell|1379|https://github.com/WisdomShell/codeshell<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20231030/pic_org_06bd9257-8699-485f-aacb-52f147c2f6bf.png)|CodeShell是北京大学知识计算实验室联合四川天府银行AI团队研发的多语言代码大模型基座。它拥有70亿参数，经过对五千亿Tokens的训练，并具有8192的上下文窗口长度。CodeShell在权威的代码评估Benchmark（HumanEval与MBPP）上取得了同等规模最好的性能。这个项目为多语言代码处理和理解提供了有力的工具。|Python|93|23|2023/9/22 11:43|2023/12/18 18:22
 
-### 前端/设计项目
+## 前端/设计类项目
 
 | 序号         | 标题         | star⭐          | 项目地址        | 项目描述      | 语言       | fork        | watch         | 项目创建时间   | 项目最后更新时间 |
 |------------|---------------|---------------- |--------------|--------------|------------|------------|---------------|------------- |--------------|
@@ -311,7 +322,7 @@
 |30|可扩展的扩散 Web UI:opendream|1631|https://github.com/varunshenoy/opendream<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230825/pic_org_5403eb1b-9547-470d-86aa-f549a66086b2.jpg)|一个可扩展的，易于使用的，便携的扩散web UI👨‍🎨 |JavaScript|73|14|2023/5/12 10:17|2023/12/17 09:07
 
 
-### 面试书籍类项目
+## 面试书籍类项目
 
 | 序号         | 标题         | star⭐          | 项目地址        | 项目描述      | 语言       | fork        | watch         | 项目创建时间   | 项目最后更新时间 |
 |------------|---------------|---------------- |--------------|--------------|------------|------------|---------------|------------- |--------------|
@@ -345,7 +356,7 @@
 |28|GitHub 漫游指南:github|9322|https://github.com/phodal/github<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230824/pic_org_0460f657-cdf8-4507-8af7-8cdf31c244b1.jpg)|一本关于如何在GitHub上构建一个好项目的中文电子书。探索用户的行为，找一些感兴趣的东西。|Rich Text Format|1800|448|2015/3/9 22:50|2023/12/18 20:44
 |29|TypeScript指南书籍:typescript-book|7792|https://github.com/gibbok/typescript-book<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230717/pic_org_6203efb8-c173-4654-aa54-0b15969372cb.png)|一本全面而简洁地概述了TypeScript的功能的指南。它清晰解释了TypeScript语言的方方面面，从强大的类型系统到高级功能，涵盖了最新版本中的所有内容。无论您是初学者还是有经验的开发人员，这本书都是一个宝贵的资源，可以帮助您增强对TypeScript的理解和熟练程度。|TypeScript|565|50|2022/9/5 00:12|2023/12/19 00:21
 
-### 视频/图像类项目
+## 视频/图像类项目
 
 | 序号         | 标题         | star⭐          | 项目地址        | 项目描述      | 语言       | fork        | watch         | 项目创建时间   | 项目最后更新时间 |
 |------------|---------------|---------------- |--------------|--------------|------------|------------|---------------|------------- |--------------|
@@ -400,7 +411,7 @@
 |49|短视频自动生成工具:open-chat-video-editor|2383|https://github.com/SCUTlihaoyu/open-chat-video-editor<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230529/pic_org_6f0ebd0e-784d-4ffc-bb2f-a14ac1fe4172.png)|开源短视频自动生成工具|Python|312|38|2023/5/5 17:23|2023/12/19 00:41
 |50|对象跟踪和分割:Segment-and-Track-Anything|2093|https://github.com/z-x-yang/Segment-and-Track-Anything<br/>![](http://photocdn.tv.sohu.com/img/20230506/pic_org_e6b1b4eb-fe25-4c96-83ec-f3617aa92ba0.gif)|该项目专注于分割和跟踪视频中的任何对象，利用自动和交互式方法。它使用了SAM（Segment Anything Models）和DeAOT等算法，实现了自动/交互式关键帧分割和高效多目标跟踪和传播。|Jupyter Notebook|264|49|2023/4/16 22:53|2023/12/18 11:34
 
-### 中间件项目
+## 中间件类项目
 
 | 序号         | 标题         | star⭐          | 项目地址        | 项目描述      | 语言       | fork        | watch         | 项目创建时间   | 项目最后更新时间 |
 |------------|---------------|---------------- |--------------|--------------|------------|------------|---------------|------------- |--------------|
@@ -441,7 +452,7 @@
 |35|数据可视化工具:metabase|35212|https://github.com/metabase/metabase<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230728/pic_org_0f9d5807-0867-40bd-aa68-0a5f55aaeeb5.png)|一个快速数据分析和可视化工具，为用户提供友好的用户体验和集成功能。它帮助公司轻松地探索和理解自己的数据，无需复杂的数据查询和分析技能。对于需要快速获取数据洞察的企业和数据分析师，Metabase是一个强大且易用的BI工具。|Clojure|4813|636|2015/2/3 03:25|2023/12/19 04:28
 
 
-### 游戏类项目
+## 游戏类项目
 
 | 序号         | 标题         | star⭐          | 项目地址        | 项目描述      | 语言       | fork        | watch         | 项目创建时间   | 项目最后更新时间 |
 |------------|---------------|---------------- |--------------|--------------|------------|------------|---------------|------------- |--------------|
@@ -462,7 +473,7 @@
 |15|吃豆人游戏:pacman|1222|https://github.com/mumuy/pacman<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230531/pic_org_0c08982b-62e8-40df-8883-923dbf71616b.png)|吃豆人（Pac-Man）是一个比较经典的游戏，最早由同名街机游戏移植至Atari 2600平台的游戏，最早由南梦宫公司于1980年在街机上推出，后由雅达利公司于1982年3月中旬发售Atari 2600版。|JavaScript|359|19|2015/12/31 07:54|2023/12/18 20:33
 
 
-### 其他项目
+## 其他项目
 
 | 序号         | 标题         | star⭐          | 项目地址        | 项目描述      | 语言       | fork        | watch         | 项目创建时间   | 项目最后更新时间 |
 |------------|---------------|---------------- |--------------|--------------|------------|------------|---------------|------------- |--------------|
