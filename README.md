@@ -3,8 +3,8 @@
 
 > AI项目
 
-| 序号         | 标题         | star⭐          | 项目地址        | 项目描述      | fork        | watch         | 项目创建时间   | 项目最后更新时间 |
-|------------|---------------|---------------- |--------------|--------------|------------|---------------|------------- |--------------|
+| 序号         | 标题         | star⭐          | 项目地址        | 项目描述      | 语言       | fork        | watch         | 项目创建时间   | 项目最后更新时间 |
+|------------|---------------|---------------- |--------------|--------------|------------|------------|---------------|------------- |--------------|
 1|机器学习:scikit-learn|56737|https://github.com/scikit-learn/scikit-learn<br/>![](http://photocdn.tv.sohu.com/img/q_mini/20230625/pic_org_a95f4582-6e75-4345-a4c9-60177fb227f3.png)|scikit-learn是一个基于SciPy构建的机器学习Python模块。|Python|24961|2145|2010/8/17 17:43|2023/12/19 05:11
 2|移植 Facebook 的 LLaMA 模型到 C/C++:llama.cpp|46804|https://github.com/ggerganov/llama.cpp<br/>![](http://photocdn.tv.sohu.com/img/20230425/pic_org_a5215c0e-53a9-4770-82b6-4270544d72b1.png)|一个将Facebook的LLaMA模型移植到C/C++的项目。LLaMA（Latent Language Models Analysis）是用于对语言模型进行分析和解释的工具。这个项目将LLaMA模型在C/C++环境下重新实现，提供更广泛的应用和集成可能性，让开发人员可以在自己的项目中使用LLaMA模型的分析功能。|C|6645|455|2023/3/11 02:58|2023/12/19 05:08
 3|自动驾驶系统:openpilot|44372|https://github.com/commaai/openpilot<br/>![](http://photocdn.tv.sohu.com/img/20230404/pic_org_d83924c3-fa15-4f17-9710-d8f51829e16e.jpeg)|一个自动驾驶系统，可在支持的车型上进行安装。它利用计算机视觉技术和机器学习技术，让车辆能够自主行驶，从而提高驾驶的安全性和便捷性。|Python|8084|1270|2016/11/24 09:33|2023/12/19 05:09
