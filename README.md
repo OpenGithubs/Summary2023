@@ -15,6 +15,9 @@
 - [游戏类项目](#游戏类项目)
 - [其他项目](#其他项目)
 
+## Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=OpenGithubs/Summary2023&type=Date)](https://star-history.com/#OpenGithubs/Summary2023&Date)
+
 根据项目的分类,按star数量从高到低规则展示:
 
 ## AI项目
